@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #ffe6f0; /* fondo rosado claro */
+  color: #4a2c2c; /* texto oscuro para contraste */
+}
+
+h1, h2 {
+  color: #d63384; /* tono rosado fuerte */
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #d63384;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+}
+
+table, th, td {
+  border: 1px solid #d63384;
+  padding: 8px;
+}
