@@ -31,4 +31,22 @@ table, th, td {
   border-radius: 15px;
   margin: 20px 0;
 }
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.redes img {
+  border: 2px solid #d63384;
+  border-radius: 50%;
+  padding: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.redes img:hover {
+  transform: scale(1.1);
+  background-color: #ffe6f0;
+}
 
