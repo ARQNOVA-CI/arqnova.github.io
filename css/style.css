@@ -94,6 +94,21 @@ padding: 25px;
 border-radius: 15px;
 font-size: 1.4rem;
 font-weight: bold;
+  .propuestas-imagenes{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+ 
+.propuestas-imagenes img{
+width:450px;
+max-width:100%;
+border-radius:15px;
+border:3px solid #d63384;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
 text-transform: uppercase;
 line-height: 1.6;
 box-shadow: 0 5px 15px rgba(0,0,0,0.2);
