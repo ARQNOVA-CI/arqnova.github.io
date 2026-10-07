@@ -113,3 +113,58 @@ text-transform: uppercase;
 line-height: 1.6;
 box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+.propuestas {
+width: 90%;
+margin: 40px auto;
+background: white;
+border: 3px solid #d63384;
+border-radius: 15px;
+padding: 30px;
+}
+ 
+.propuestas h2 {
+color: #d63384;
+text-align: center;
+}
+ 
+.subtitulo {
+text-align: center;
+margin-bottom: 25px;
+}
+ 
+.contenedor-imagenes {
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+ 
+.bloque {
+width: 45%;
+min-width: 300px;
+text-align: center;
+}
+ 
+.bloque h3 {
+color: #d63384;
+margin-bottom: 15px;
+}
+ 
+.bloque img {
+width: 100%;
+border-radius: 15px;
+border: 3px solid #d63384;
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+ 
+.frase-impacto {
+margin-top: 30px;
+background-color: #d63384;
+color: white;
+padding: 25px;
+border-radius: 15px;
+font-size: 1.3rem;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
