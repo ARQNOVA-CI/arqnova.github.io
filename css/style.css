@@ -49,125 +49,8 @@ table, th, td {
   transform: scale(1.1);
   background-color: #ffe6f0;
 }
-/* SECCIÓN PROPUESTAS */
- 
-.propuestas {
-background: white;
-border: 3px solid #d63384;
-border-radius: 15px;
-width: 90%;
-margin: 40px auto;
-padding: 30px;
-}
- 
-.propuestas h2 {
-color: #d63384;
-font-size: 2rem;
-margin-bottom: 15px;
-}
- 
-.subtitulo {
-font-size: 1.1rem;
-margin-bottom: 25px;
-}
- 
-.propuestas-imagenes {
-display: flex;
-justify-content: center;
-gap: 25px;
-flex-wrap: wrap;
-}
- 
-.propuestas-imagenes img {
-width: 450px;
-max-width: 100%;
-border-radius: 15px;
-border: 3px solid #d63384;
-box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-}
- 
-.frase-impacto {
-margin-top: 30px;
-background: #d63384;
-color: white;
-padding: 25px;
-border-radius: 15px;
-font-size: 1.4rem;
-font-weight: bold;
-  .propuestas-imagenes{
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
-margin-top:20px;
-}
- 
-.propuestas-imagenes img{
-width:450px;
-max-width:100%;
-border-radius:15px;
-border:3px solid #d63384;
-box-shadow:0 4px 10px rgba(0,0,0,.2);
-}
-text-transform: uppercase;
-line-height: 1.6;
-box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-.propuestas {
-width: 90%;
-margin: 40px auto;
-background: white;
-border: 3px solid #d63384;
-border-radius: 15px;
-padding: 30px;
-}
- 
-.propuestas h2 {
-color: #d63384;
-text-align: center;
-}
- 
-.subtitulo {
-text-align: center;
-margin-bottom: 25px;
-}
- 
-.contenedor-imagenes {
-display: flex;
-justify-content: center;
-gap: 30px;
-flex-wrap: wrap;
-}
- 
-.bloque {
-width: 45%;
-min-width: 300px;
-text-align: center;
-}
- 
-.bloque h3 {
-color: #d63384;
-margin-bottom: 15px;
-}
- 
-.bloque img {
-width: 100%;
-border-radius: 15px;
-border: 3px solid #d63384;
-box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
- 
-.frase-impacto {
-margin-top: 30px;
-background-color: #d63384;
-color: white;
-padding: 25px;
-border-radius: 15px;
-font-size: 1.3rem;
-font-weight: bold;
-text-align: center;
-text-transform: uppercase;
-}
+/* COMPROMISOS Y PROPUESTAS */
+
 .propuestas{
     width:90%;
     margin:40px auto;
@@ -175,6 +58,16 @@ text-transform: uppercase;
     background:white;
     border:3px solid #d63384;
     border-radius:15px;
+}
+
+.propuestas h2{
+    color:#d63384;
+    text-align:center;
+}
+
+.subtitulo{
+    text-align:center;
+    margin-bottom:25px;
 }
 
 .contenedor-imagenes{
@@ -187,13 +80,23 @@ text-transform: uppercase;
 .bloque{
     width:45%;
     min-width:300px;
+    text-align:center;
 }
+
+.bloque h3{
+    color:#d63384;
+    margin-bottom:15px;
+}
+
+/* IMÁGENES DEL MISMO TAMAÑO */
 
 .bloque img{
     width:100%;
-    height:auto;
-    border-radius:15px;
+    height:600px;
+    object-fit:contain;
+    background:white;
     border:3px solid #d63384;
+    border-radius:15px;
     box-shadow:0 4px 15px rgba(0,0,0,0.2);
 }
 
@@ -201,8 +104,11 @@ text-transform: uppercase;
     margin-top:30px;
     background:#d63384;
     color:white;
-    padding:20px;
+    padding:25px;
     border-radius:15px;
+    font-size:1.3rem;
     font-weight:bold;
-    font-size:1.2rem;
+    text-align:center;
+    text-transform:uppercase;
+    line-height:1.6;
 }
