@@ -50,26 +50,6 @@ table, th, td {
   background-color: #ffe6f0;
 }
 /* COMPROMISOS Y PROPUESTAS */
-
-.propuestas{
-    width:90%;
-    margin:40px auto;
-    padding:30px;
-    background:white;
-    border:3px solid #d63384;
-    border-radius:15px;
-}
-
-.propuestas h2{
-    color:#d63384;
-    text-align:center;
-}
-
-.subtitulo{
-    text-align:center;
-    margin-bottom:25px;
-}
-
 .contenedor-imagenes{
     display:flex;
     justify-content:center;
@@ -89,19 +69,25 @@ table, th, td {
     margin-bottom:15px;
 }
 
-/* CAJA IGUAL PARA LAS DOS IMÁGENES */
-.bloque img{
+/* MISMA CAJA PARA LAS DOS IMÁGENES */
+.imagen-contenedor{
     width:100%;
     height:600px;
-    display:block;
-    object-fit:contain;
-    object-position:center;
-    background:#ffffff;
-    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:white;
     border:3px solid #d63384;
     border-radius:15px;
     box-shadow:0 4px 15px rgba(0,0,0,0.2);
+    overflow:hidden;
+    box-sizing:border-box;
 }
-    text-transform:uppercase;
-    line-height:1.6;
+
+/* LA IMAGEN NO SE CORTA */
+.imagen-contenedor img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display:block;
 }
