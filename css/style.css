@@ -73,19 +73,30 @@ table, th, td {
 .contenedor-imagenes{
     display:flex;
     justify-content:center;
+    align-items:flex-start;
     gap:30px;
     flex-wrap:wrap;
 }
 
 .bloque{
-    width:45%;
+    width:calc(50% - 15px);
+    max-width:600px;
     min-width:300px;
     text-align:center;
 }
 
-.bloque h3{
-    color:#d63384;
-    margin-bottom:15px;
+.bloque img{
+    width:100%;
+    aspect-ratio:4 / 3;
+    height:auto;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+    box-sizing:border-box;
+    border:3px solid #d63384;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
 }
 
 /* IMÁGENES DEL MISMO TAMAÑO */
